@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Geek</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navegacao">
+            <section class="navegacao_cabecalho">
+                <img src="img/ciano-removebg-preview.png" alt="coracoes">
+                <img src="img/roxo-removebg-preview.png" alt="coracoes">
+                <img src="img/verde-removebg-preview.png" alt="coracoes">
+                <h1>AluraGeek</h1>
+                <img src="img/amarelo-removebg-preview.png" alt="coracoes">
+                <img src="img/azul_escuro-removebg-preview.png" alt="coracoes">
+                <img src="img/laranja-removebg-preview.png" alt="coracoes">
+            </section>
+        </nav>
+    </header>
+
+    <main class="principal">
+        <section class="principal_produtos">
+            <div class="principal_texto">
+                <h1>Meus Produtos:</h1>
+            </div>
+            <div class="caixa_produtos">
+                <div data-product class="principal_produtos_cards"></div>
+            </div>
+        </section>
+
+        <section class="adicionarProduto">
+            <div class="adicionarProduto_texto">
+                <h1>Adicionar produto...</h1>
+            </div>
+            <div class="adicionarProduto_direita">
+                <form class="adicionarProdutocontainer" data-form>
+                    <div class="adicionarProduto_div">
+                        <input type="text" data-nome class="adicionarProduto_div_nome" id="nome" name="nome" placeholder="nome...">
+                        <input type="text" data-valor class="adicionarProduto_div_valor" id="valor" name="valor" placeholder="valor...">
+                        <input type="text" data-imagem class="adicionarProduto_div_imagem" id="imagem" name="imagem" placeholder="imagem...">
+                    </div>
+                    <div class="guardar_limpar">
+                        <button type="submit" class="adicionarProduto_div_guardar" id="button">Guardar</button>
+                        <button type="reset" class="adicionarProduto_div_limpar" id="limpar">Limpar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="chao">
+            <img src="img/ciano-removebg-preview.png" alt="coracoes">
+            <img src="img/roxo-removebg-preview.png" alt="coracoes">
+            <img src="img/verde-removebg-preview.png" alt="coracoes">
+            <div class="textos">
+                <h1>AluraGeek</h1>
+                <h2>Desenvolvido por Iusley Guimarães</h2>
+                <p>Alura Latam 2024</p>
+            </div>
+            <img src="img/amarelo-removebg-preview.png" alt="coracoes">
+            <img src="img/azul_escuro-removebg-preview.png" alt="coracoes">
+            <img src="img/laranja-removebg-preview.png" alt="coracoes">
+        </div>
+    </footer>
+    <script type="module" src="js/controles/main.js"></script>
+</body>
+</html>

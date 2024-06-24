@@ -1,0 +1,200 @@
+body {
+    background-color: gray;
+    margin: 0;
+}
+
+.navegacao {
+    width: 100%;
+    height: 100%;
+    padding: 35px 0px;
+    gap: 0px;
+    background-color: black;    
+}
+
+.navegacao_cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.navegacao_cabecalho, img {
+    height: 30px;
+    gap: 5px;
+}
+
+.navegacao_cabecalho h1 {
+    color: red;
+    font-size: 24px;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.principal_produtos{
+    display: flex;
+}
+
+.principal_texto {
+    margin-top: 30px;
+}
+
+.container_infos {
+    flex-direction: column;
+    gap: 10px; /* Espaçamento entre os cards */
+    margin-top: 30px; /* Ajuste conforme necessário */
+}
+
+.caixa_produtos {
+    background-color: blue;
+}
+
+.container_infos_item {
+    width: 300px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; /* Espaçamento entre os cards verticalmente */
+}
+
+.container_infos_item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0; /* Bordas arredondadas apenas na parte superior */
+}
+
+
+.container_infos_item p {
+    margin-top: 10px; 
+    font-weight: bold; 
+}
+
+.container_infos_valor {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.botaoDeletar {
+    background: none; 
+    border: none; 
+    cursor: pointer; 
+    outline: none; 
+}
+
+.botaoDeletar img {
+    width: 20px; 
+    height: auto; 
+}
+
+.adicionarProduto {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+}
+
+.adicionarProduto_div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+}
+
+.adicionarProduto_div input {
+    padding: 20px 10px; 
+    background-color: transparent;
+    border: 2px solid blue;
+    border-radius: 30px;
+    font-size: 14px;
+    width: 392px;
+    color: red;
+    outline: none;
+}
+
+.adicionarProduto_div ::placeholder {
+    color: red;
+}
+
+.adicionarProduto_div input:hover {
+    border-color: darkblue;
+}
+
+.adicionarProduto_div_guardar {
+    padding: 20px 0px 20px 10px;
+    border: 2px solid blue;
+    background-color: blue;
+    border-radius: 30px;
+    font-size: 20px;
+    width: 188px;
+    color: white;
+    cursor: pointer;
+    text-align: center; 
+    outline: none;
+
+}
+.adicionarProduto_div_limpar {
+    padding: 20px 0px 20px 10px;
+    border: 2px solid blue;
+    background-color: transparent;
+    border-radius: 30px;
+    font-size: 20px;
+    width: 188px;
+    color: white;
+    cursor: pointer;
+    text-align: center; 
+    outline: none;
+}
+
+.adicionarProduto_div_guardar,
+.adicionarProduto_div_limpar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.adicionarProduto_div_guardar:hover,
+.adicionarProduto_div_limpar:hover {
+    background-color: blue; 
+    color: white;
+}
+
+.adicionarProduto_div_guardar:active,
+.adicionarProduto_div_limpar:active {
+    background-color: darkblue; 
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.chao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chao img {
+    height: 30px;
+    margin: 0 5px;
+}
+
+.chao .textos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chao h1, .chao h2, .chao p {
+    margin: 5px 0;
+    color: red;
+}
+

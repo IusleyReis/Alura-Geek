@@ -1,0 +1,22 @@
+{
+  "cards": [
+    {
+      "nome": "Frisk",
+      "preco": "R$ 20,00",
+      "imagem": "https://i.pinimg.com/236x/af/78/21/af7821a5baf5becab0d62733431063ad.jpg",
+      "id": "2"
+    },
+    {
+      "nome": "Toriel",
+      "preco": "R$ 20,00",
+      "imagem": "https://i.pinimg.com/236x/8d/20/b2/8d20b211571aaf49954f987c8ebaa1ce.jpg",
+      "id": "3"
+    },
+    {
+      "nome": "Sans",
+      "preco": "R$ 20,00",
+      "imagem": "https://i.pinimg.com/236x/ba/5d/db/ba5ddb72ae0d4ce770c257ee83bef7d1.jpg",
+      "id": "4"
+    }
+  ]
+}
